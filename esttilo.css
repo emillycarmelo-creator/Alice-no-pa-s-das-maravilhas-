@@ -9,3 +9,9 @@ align-items: center;
  .img01{
     width: 90%;
  }
+
+ button{
+    background-color: aqua;
+    color:black;
+    padding:25px;
+ }
