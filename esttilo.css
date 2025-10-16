@@ -20,7 +20,7 @@ font-family: "Roboto Condensed", sans-serif;
 
  button{
     background-color: rgb(204, 135, 223);
-    color:rgba(0, 0, 0, 0.091);
+    color:rgba(0, 0, 0);
     padding:25px;
  }
 
