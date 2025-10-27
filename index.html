@@ -10,7 +10,7 @@
 
 <body>7
         <main>
-                <div class="passo ativo">
+                <div class="passo ativo" id="passo-0">
                         <img src="alice_timBurton.jpg" alt="">
                         <p>Você se encontra em um campo de flores estranhas e coloridas. A paisagem ao seu redor parece
                                 mágica, e você começa a ouvir vozes de animais e criaturas que nunca viu antes. À sua
@@ -18,17 +18,23 @@
                                 agora? Você deve decidir como proceder.
                                 Primeira escolha:
                         </p>
-                        <button>Entrar no buraco e explorar o desconhecido.
+                        <button class="btn-proximo" data-proximo="1">Entrar no buraco e explorar o desconhecido.
                         </button>
-                        <button> Seguir um coelho branco que corre ao longe, parecendo apressado.
+                        <button class="btn-proximo" data-proximo="2"> Seguir um coelho branco que corre ao longe, parecendo apressado.
                         </button>
                 </div>
 
-                <div class="passo">
+                <div class="passo" id="passo-1">
                         <img src="./buraco.jpg" alt="">
                         <p>Ao cair no buraco, você se encontra em um corredor estreito e misterioso. As paredes são cobertas de plantas que parecem se mexer. À sua frente, há duas portas: uma de madeira escura e a outra de vidro brilhante</p>
-                        <button>Abrir a porta de madeira</button>
-                        <button>Abrir a porta de vidro.</button>
+                        <button class="btn-proximo" data-proximo="11">Abrir a porta de madeira</button>
+                        <button class="btn-proximo" data-proximo="12">Abrir a porta de vidro.</button>
+                </div>
+                <div class="passo" id="passo-2">
+                        <img src="./buraco.jpg" alt="">
+                        <p>Ao cair no buraco, você se encontra em um corredor estreito e misterioso. As paredes são cobertas de plantas que parecem se mexer. À sua frente, há duas portas: uma de madeira escura e a outra de vidro brilhante</p>
+                        <button class="btn-proximo" data-proximo="21">Abrir a porta de madeira</button>
+                        <button class="btn-proximo" data-proximo="22">Abrir a porta de vidro.</button>
                 </div>
         </main>
         <script src="./main.js"></script>
